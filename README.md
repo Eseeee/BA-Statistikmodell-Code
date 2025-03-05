@@ -1,7 +1,7 @@
 # Projektname: [Entwicklung und Evaluierung der Aussagekraft eines Statistikmodells über Schadenerwartungen in der KFZ-Haftpflichtversicherung]
 
 ## Beschreibung
-Dieses Repository enthält den Quellcode und die synthetische Daten zur Modellierung und zum Vergleich von [Dein Thema]. Hierbei stelle ich aus rechtlichen Gründen nicht meine verwendeten Daten zur Verfügung.
+Dieses Repository enthält den Quellcode und die synthetische Daten für den Vergleich von verschiedenen Modellen und wie gut diese den Schadenaufwand vorhersagen. Hierbei stelle ich aus rechtlichen Gründen nicht meine verwendeten Daten zur Verfügung.
 
 ## Zitierung
 Wenn Sie dieses Projekt in Ihrer Arbeit verwenden, zitieren Sie bitte wie folgt:
