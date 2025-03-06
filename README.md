@@ -27,10 +27,13 @@ Um die Analysen zu reproduzieren, folgen Sie bitte diesen Schritten (R-Version 4
    Die benötigten Pakete sind in der Datei `packages.R` aufgelistet und können automatisch installiert werden.
 
 Modellerstellung & Vergleich
+
 Das Skript Modell_Erstellung_Vergleich.R erstellt und vergleicht die verwendeten Modelle basierend auf dem Datensatz synthetic_data.csv.
 
 SMOTE-Datenerstellung
+
 Mit dem Skript SMOTE_Datacreation.R wird ein Datensatz erstellt, bei dem die Klassenverteilung mithilfe der SMOTE-Methode ausgeglichen wird.
 
 Modellvergleich auf SMOTE-Daten
+
 Das Skript SMOTE_COMP.R vergleicht ein lineares Regressionsmodell mit einem neuronalen Netzwerk basierend auf den SMOTE-Daten.
