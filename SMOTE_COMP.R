@@ -9,7 +9,7 @@ summary(fdata)
 fdata <- fdata %>%
   mutate_if(is.character, as.factor)
 
-# Define evaluation function
+# Define evaluation function (ChatGPT (2024): “i have a model and several others, i want them to be executed 15 times and to compare them with the evaluate model function, which gives us the RSME, MAE and the R²” ChatGPT, <13> <11>, OpenAI, URL: chat.openai.com)
 evaluate_model <- function(actual, predicted) {
   rmse <- sqrt(mean((actual - predicted)^2))
   mae <- mean(abs(actual - predicted))
